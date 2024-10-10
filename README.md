@@ -10,9 +10,8 @@ python demo_script.py ./example/[cloths_data_file_name].npy ./example/[pants_dat
 ## Visualization algorithm
 
 ## Uses in publicated works
-“Smart Garment: A long-term feasible, wholebody textile pressure sensing system,” _IEEE Sensors Journal_, 2023.  
-![](./fig/Use_in_IEEE_Sensors_2023.png)
-
-
 “A Single-Ply and Knit-Only Textile Sensing Matrix for Mapping Body Surface Pressure,” _IEEE Sensors Journal_, 2024.  
 ![](./fig/Use_in_IEEE_Sensors_2024.png)
+
+“Smart Garment: A long-term feasible, wholebody textile pressure sensing system,” _IEEE Sensors Journal_, 2023.  
+![](./fig/Use_in_IEEE_Sensors_2023.png)

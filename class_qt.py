@@ -1,11 +1,9 @@
-import sys
 from PyQt5 import QtWidgets
 import vtk
-import numpy as np
 from vtkmodules.qt.QVTKRenderWindowInteractor import QVTKRenderWindowInteractor
-import class_garment
 
 class Ui(QtWidgets.QWidget):
+
     def SetUpUi(self, main_window: QtWidgets.QMainWindow):
         '''
         
@@ -22,6 +20,7 @@ class Ui(QtWidgets.QWidget):
         main_window.setCentralWidget(self.central_widget)
 
 class View(QtWidgets.QMainWindow):
+
     def __init__(self, parent=None):
         QtWidgets.QMainWindow.__init__(self)
         '''
@@ -50,9 +49,9 @@ class View(QtWidgets.QMainWindow):
         connect vtk, .obj file and texture
         '''
         self.reader = vtk.vtkOBJReader()
-        self.reader.SetFileName(class_garment.OBJ_FILE_PATH)
+        self.reader.SetFileName(f'./config/20230108_man_2.obj')
         self.reader.Update()
-        self.texture = self.GetTexture(class_garment.TEXTURE_FILE_PATH)
+        self.texture = self.GetTexture(f'./config/original_body_texture.bmp')
         self.mapper = vtk.vtkPolyDataMapper()
         self.mapper.SetInputConnection(self.reader.GetOutputPort())
         lut = vtk.vtkLookupTable()
@@ -73,6 +72,7 @@ class View(QtWidgets.QMainWindow):
         actor.SetTexture(self.texture)
         self.ren.AddActor(actor)
         self.iren.Initialize()
+        
     def GetTexture(self, texture_path: str):
         '''
         
@@ -86,16 +86,3 @@ class View(QtWidgets.QMainWindow):
         texture.SetInputConnection(texReader.GetOutputPort())
         texture.Update()
         return texture
-
-if __name__ == '__main__':
-    smart_garment = class_garment.SMART_GARMENT(class_garment.CONFIG_FILE_PATH)
-    smart_garment.set_pressure_data(np.load(class_garment.CLOTHS_EXAMPLE), 
-                                    np.load(class_garment.PANTS_EXAMPLE))
-    scalar = smart_garment.make_vtk_scalar()
-    app = QtWidgets.QApplication(sys.argv)
-    win = View()
-    win.reader.GetOutput().GetPointData().SetScalars(scalar)
-    win.mapper.SetScalarRange(0, 600)
-    win.iren.Initialize()
-    win.show()
-    sys.exit(app.exec_())

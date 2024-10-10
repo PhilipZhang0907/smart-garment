@@ -12,7 +12,7 @@ Configuration file **./config/config.json** helps the system adapt to different 
 ![](./fig/configuration_file.png)
 The .json file records the location of horizontal/vertical sensing stripes on the human body. To make localization easier, the human body is viewed as 5 cylinders (left/right arms, left/right legs and torso). The sensing stripes cover the cylinders equally in horizontal and vertical directions.
 
-Thus, the arrays recorded in **./config/config.json** represent the order of stripes on the cylinders. E.g., for cylinder left_arm **(class ARM (mode=left))**, horizontal order starts from variable **self.reference** and vertical order **self.start**.
+Thus, the arrays recorded in **./config/config.json** represent the order of stripes on the cylinders. E.g., for cylinder left_arm **(class ARM (mode='left'))**, horizontal order starts from variable **self.reference** and vertical order **self.start**.
 
 For more detailed algorithm, please refer to our work “Smart Garment: A long-term feasible, wholebody textile pressure sensing system”.
 

@@ -18,7 +18,7 @@ For more detailed algorithm, please refer to our work “Smart Garment: A long-t
 
 ## Uses in publicated works
 “A Single-Ply and Knit-Only Textile Sensing Matrix for Mapping Body Surface Pressure,” _IEEE Sensors Journal_, 2024.  
-![](./fig/Use_in_IEEE_Sensors_2024.png)
+![](./fig/use_in_IEEE_Sensors_2024.png)
 
 “Smart Garment: A long-term feasible, wholebody textile pressure sensing system,” _IEEE Sensors Journal_, 2023.  
-![](./fig/Use_in_IEEE_Sensors_2023.png)
+![](./fig/use_in_IEEE_Sensors_2023.png)

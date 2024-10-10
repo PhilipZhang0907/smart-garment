@@ -14,11 +14,11 @@ The .json file records the location of horizontal/vertical sensing stripes on th
 
 Thus, the arrays recorded in **./config/config.json** represent the order of stripes on the cylinders. E.g., for cylinder left_arm **(class ARM (mode='left'))**, horizontal order starts from variable **self.reference** and vertical order **self.start**.
 
-For more detailed algorithm, please refer to our work “Smart Garment: A long-term feasible, wholebody textile pressure sensing system”.
+For more detailed algorithm, please refer to our work “Smart Garment: A Long-term Feasible, Whole-body Textile Pressure Sensing System”.
 
 ## Uses in publicated works
 “A Single-Ply and Knit-Only Textile Sensing Matrix for Mapping Body Surface Pressure,” _IEEE Sensors Journal_, 2024.  
 ![](./fig/use_in_IEEE_Sensors_2024.png)
 
-“Smart Garment: A Long-term Feasible, Wholebody Textile Pressure Sensing System,” _IEEE Sensors Journal_, 2023.  
+“Smart Garment: A Long-term Feasible, Whole-body Textile Pressure Sensing System,” _IEEE Sensors Journal_, 2023.  
 ![](./fig/use_in_IEEE_Sensors_2023.png)

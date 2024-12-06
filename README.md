@@ -1,3 +1,7 @@
+# Learn to Infer Human Poses Using a Full-Body Pressure Sensing Garment  
+The author is currently busy with Ph.D. application. A better organized dataset would be released in late December after application deadlines.
+If you would like to have access to the dataset during this period, please send an email to philipzhang@mail.ustc.edu.cn with your intention on the dataset.
+
 # Smart Garment: A long-term feasible, whole-body textile pressure sensing system  
 This repository holds the python demo of pressure data visualization system by Dongquan Zhang.  
 ## Quick start  

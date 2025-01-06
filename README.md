@@ -1,5 +1,5 @@
 # Learn to Infer Human Poses Using a Full-Body Pressure-Sensing Garment  
-The dataset should only be used for research purpose.
+The dataset should only be used for research purposes.
 If you would like to have access to the dataset, please send an email to philipzhang@mail.ustc.edu.cn with your intention, we would record and send you the url.
 
 # Smart Garment: A Long-Term Feasible, Whole-Body Textile Pressure-Sensing System  

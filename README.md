@@ -2,7 +2,7 @@
 The dataset should only be used for research purposes.
 If you would like to have access to the dataset, please send an email to philipzhang@mail.ustc.edu.cn with your intention, we would record and send you the url.  
 Data sample pre-view:  
-<img src="./smart_garment_dataset/sample/preview.gif", height="320", width="240" />
+![](./smart_garment_dataset/sample/preview.gif)
 
 # Smart Garment: A Long-Term Feasible, Whole-Body Textile Pressure-Sensing System  
 This repository holds the python demo of pressure data visualization system by Dongquan Zhang.  

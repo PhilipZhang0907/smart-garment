@@ -1,6 +1,6 @@
 # Learn to Infer Human Poses Using a Full-Body Pressure-Sensing Garment  
-The author is currently busy with Ph.D. application. A better organized dataset would be released in late December after application deadlines.
-If you would like to have access to the dataset during this period, please send an email to philipzhang@mail.ustc.edu.cn with your intention on the dataset.
+The dataset should only be used for research purposes.
+If you would like to have access to the dataset, please send an email to philipzhang@mail.ustc.edu.cn with your intention, we would record and send you the url.
 
 Data sample pre-view:
 <video src="./smart_garment_dataset/sample/video.mp4", autoplay="true", controls="controls", width="800", height="600">  
